@@ -1,0 +1,22 @@
+{
+  "source": "forum",
+  "feedback-content": [
+    {
+      "type": "post",
+      "author": "hayden.bevan@myob.com",
+      "forumUsername": "Haydes",
+      "title": "An example Post Subject",
+      "body": "This is an exmaple Post Body",
+      "external-link": "https://community.myob.com/t5/short/link/td-p/12345"
+    },
+    {
+      "type": "idea",
+      "author": "hayden.bevan@myob.com",
+      "forumUsername": "Haydes",
+      "title": "An example Idea Subject",
+      "body": "An example Idea Body",
+      "external-link": "https://community.myob.com/t5/short/link/td-p/12345"
+    }
+  ],
+  "size": 2
+}

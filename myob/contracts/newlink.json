@@ -1,0 +1,22 @@
+{
+  "domain": "Sales & Purchases",
+  "destinations": [
+    {
+      "name": "slack",
+      "webhook": "https://myob.slack.com/webhookgoeshere/"
+    },
+    {
+      "name": "dovetail",
+      "endpoint": "https://dovetailapp.com/webhookgoeshere/"
+    }
+  ],
+  "sources": [
+    {
+      "source-name": "forum",
+      "config": {
+        "forumlabel": "SnP",
+        "forumtag": "Snp"
+      }
+    }
+  ]
+}
