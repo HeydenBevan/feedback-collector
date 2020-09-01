@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/json"
 	"errors"
+	"feedback-collector/processor/linker"
 	"io/ioutil"
 	"log"
 	"net/http"
@@ -15,7 +16,8 @@ func main() {
 }
 
 func registerHandlers() {
-	http.HandleFunc("/forum", testHandler)
+	// http.HandleFunc("/forum", testHandler)
+	http.HandleFunc("/linker/", linker.LinkHandler)
 }
 
 func testHandler(w http.ResponseWriter, req *http.Request) {

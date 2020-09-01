@@ -24,10 +24,9 @@ The intial design will be to have a few services.
 | Path | Subpath | Purpose |
 | --- | --- | --- |
 | `collector` | n/a | Feedback Collector Client; see the README in there for details |
-| `mapper` | n/a | Front-End UI for setting up DomainLinks; see the README in there for details |
 | `myob` | n/a | MYOB-specific plumbing |
 | `myob` | `contracts` | Contains JSON files that denote the contracts being used when sending to the `Processor` |
 | `processor` | n/a | The Feedback Processing service. Data transformation happens here before passing it to an intended destination. |
-| `processor` | `controllers` | Server state structs, Feedback processing, and configuration handlers |
-| `processor` | `forum` | Forum Processor Package, defines all the Forum-Specific implementation for data processing |
-| `processor` | `newlinks` | NewLink package, defines what to do when a newlink is set up |
+| `processor` | `controllers` | Basic controllers for the server, contains state info |
+| `processor` | `forum` | Forum package, provides the plumbing for processing Forum-based feedback |
+| `processor` | `linker` | Linker package, provides the front-end interface to manage `DomainLinks` |
