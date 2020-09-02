@@ -1,7 +1,7 @@
 package myob
 
-// FeedbackCollector defines a family of methods that return Feedback Collectors
-type FeedbackCollector interface {
+// FeedbackProcessor defines a family of methods that return Feedback Processors
+type FeedbackProcessor interface {
 	DomainName() string
 	SeeFeedback() *FeedbackContent
 }

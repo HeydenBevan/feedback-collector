@@ -1,0 +1,16 @@
+{
+  "source": "forum",
+  "domain": "SnP",
+  "feedback-content": [
+    {
+      "type": "idea",
+      "author": "hayden.bevan@myob.com",
+      "forumUsername": "Haydes",
+      "title": "An example Idea Subject",
+      "body": "An example Idea Body",
+      "external-link": "https://community.myob.com/t5/short/link/td-p/12345",
+      "votes": 12
+    }
+  ],
+  "size": 1
+}
